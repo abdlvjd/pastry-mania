@@ -1,4 +1,5 @@
 import { Phone, Mail, Instagram, Menu } from 'lucide-react';
+import logo from '../../public/logo.jpg'
 
 interface HeaderProps {
   onContactClick: () => void;
@@ -10,7 +11,7 @@ export default function Header({ onContactClick }: HeaderProps) {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
           <img
-            src="/logo.jpg"
+            src={logo}
             alt="Pastry Mania Logo"
             className="h-12 w-auto object-contain"
           />
