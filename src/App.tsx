@@ -34,9 +34,11 @@ function App() {
     setIsModalOpen(true);
   };
 
-  const handlePurchaseCake = (cake: Cake) => {
+  const handlePurchaseCake = (cake: Cake, quantity: 'full' | 'half' = 'full') => {
+    const quantityText = quantity === 'full' ? 'Full Cake' : 'Half Cake';
+    const price = quantity === 'full' ? cake.price : cake.price_half;
     const message = encodeURIComponent(
-      `Hi Pastry Mania! I would like to purchase the cake: ${cake.name}`
+      `Hi Pastry Mania! I would like to purchase:\n\nCake: ${cake.name}\nQuantity: ${quantityText}\nPrice: ₹${price}`
     );
     window.open(`https://wa.me/7025500740?text=${message}`, '_blank');
   };
