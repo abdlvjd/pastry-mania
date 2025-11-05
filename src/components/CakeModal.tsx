@@ -1,6 +1,16 @@
 import { useEffect, useState } from 'react';
 import { X, MessageCircle, Check, Sparkles } from 'lucide-react';
-import { Cake } from '../data/cakes';
+
+interface Cake {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  price_half?: number;
+  image: string;
+  category: string;
+  eggless: boolean;
+}
 
 interface CakeModalProps {
   cake: Cake;
@@ -41,22 +51,22 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
 
       {/* Modal Content */}
       <div
-        className="relative bg-white w-full sm:max-w-2xl sm:mx-4 rounded-t-3xl sm:rounded-3xl shadow-2xl max-h-[95vh] overflow-hidden transform transition-all animate-in slide-in-from-bottom-4 sm:slide-in-from-bottom-0 sm:zoom-in-95 duration-300"
+        className="relative bg-white w-full sm:max-w-2xl sm:mx-4 rounded-t-[2rem] sm:rounded-3xl shadow-2xl max-h-[95vh] overflow-hidden transform transition-all animate-in slide-in-from-bottom-4 sm:slide-in-from-bottom-0 sm:zoom-in-95 duration-300"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-20 p-2.5 bg-white/95 hover:bg-white rounded-full shadow-lg transition-all hover:scale-110 active:scale-95 backdrop-blur-sm"
+          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 p-2 sm:p-2.5 bg-white/95 hover:bg-white rounded-full shadow-lg transition-all hover:scale-110 active:scale-95 backdrop-blur-sm"
           aria-label="Close modal"
         >
-          <X className="w-5 h-5 text-gray-700" />
+          <X className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700" />
         </button>
 
         {/* Scrollable Content */}
         <div className="overflow-y-auto max-h-[95vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
           {/* Image Section */}
-          <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
+          <div className="relative aspect-[16/9] sm:aspect-[16/10] overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
             <img
               src={cake.image}
               alt={cake.name}
@@ -64,19 +74,19 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
             />
 
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
 
             {/* Eggless Badge */}
-            <div className="absolute top-4 left-4">
+            <div className="absolute top-3 left-3 sm:top-4 sm:left-4">
               <span
-                className={`px-4 py-2 rounded-full text-sm font-semibold shadow-xl backdrop-blur-sm flex items-center gap-2 ${cake.eggless
+                className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold shadow-xl backdrop-blur-sm flex items-center gap-1.5 sm:gap-2 ${cake.eggless
                   ? 'bg-emerald-500/95 text-white'
                   : 'bg-rose-500/95 text-white'
                   }`}
               >
                 {cake.eggless ? (
                   <>
-                    <Sparkles className="w-4 h-4" />
+                    <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                     Eggless
                   </>
                 ) : (
@@ -87,33 +97,33 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
           </div>
 
           {/* Content Section */}
-          <div className="p-6 sm:p-8">
+          <div className="p-5 sm:p-8">
             {/* Title and Category */}
-            <div className="mb-6">
-              <div className="inline-block px-3 py-1 bg-brand-teal/10 text-brand-teal rounded-full text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="mb-5 sm:mb-6">
+              <div className="inline-block px-3 py-1 bg-brand-teal/10 text-brand-teal rounded-full text-xs font-semibold uppercase tracking-wider mb-2 sm:mb-3">
                 {cake.category}
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 leading-tight">
                 {cake.name}
               </h2>
             </div>
 
             {/* Description */}
-            <div className="mb-8">
-              <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+            <div className="mb-6 sm:mb-8">
+              <p className="text-gray-600 leading-relaxed text-sm sm:text-base md:text-lg">
                 {cake.description}
               </p>
             </div>
 
             {/* Quantity Selection */}
-            <div className="mb-8">
-              <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-4">
+            <div className="mb-6 sm:mb-8">
+              <h3 className="text-xs sm:text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3 sm:mb-4">
                 Select Quantity
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                 {/* Full Cake Option */}
                 <label
-                  className={`relative flex items-center gap-4 p-5 rounded-2xl border-2 cursor-pointer transition-all duration-200 ${selectedQuantity === 'full'
+                  className={`relative flex items-center gap-3 sm:gap-4 p-4 sm:p-5 rounded-xl sm:rounded-2xl border-2 cursor-pointer transition-all duration-200 ${selectedQuantity === 'full'
                     ? 'border-brand-teal bg-brand-teal/5 shadow-lg shadow-brand-teal/20'
                     : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
                     }`}
@@ -128,28 +138,28 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
 
                   {/* Custom Radio */}
                   <div
-                    className={`flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${selectedQuantity === 'full'
+                    className={`flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center transition-all ${selectedQuantity === 'full'
                       ? 'border-brand-teal bg-brand-teal'
                       : 'border-gray-300'
                       }`}
                   >
                     {selectedQuantity === 'full' && (
-                      <Check className="w-4 h-4 text-white" />
+                      <Check className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                     )}
                   </div>
 
                   <div className="flex-1">
-                    <div className="text-sm font-medium text-gray-600 mb-1">
+                    <div className="text-xs sm:text-sm font-medium text-gray-600 mb-0.5 sm:mb-1">
                       Full Cake
                     </div>
-                    <div className="text-2xl font-bold text-gray-900">
+                    <div className="text-xl sm:text-2xl font-bold text-gray-900">
                       ₹{cake.price}
                     </div>
                   </div>
 
                   {selectedQuantity === 'full' && (
-                    <div className="absolute top-3 right-3">
-                      <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
+                    <div className="absolute top-2 right-2 sm:top-3 sm:right-3">
+                      <span className="inline-flex items-center px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
                         Selected
                       </span>
                     </div>
@@ -159,7 +169,7 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
                 {/* Half Cake Option */}
                 {cake.price_half && (
                   <label
-                    className={`relative flex items-center gap-4 p-5 rounded-2xl border-2 cursor-pointer transition-all duration-200 ${selectedQuantity === 'half'
+                    className={`relative flex items-center gap-3 sm:gap-4 p-4 sm:p-5 rounded-xl sm:rounded-2xl border-2 cursor-pointer transition-all duration-200 ${selectedQuantity === 'half'
                       ? 'border-brand-teal bg-brand-teal/5 shadow-lg shadow-brand-teal/20'
                       : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
                       }`}
@@ -174,28 +184,28 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
 
                     {/* Custom Radio */}
                     <div
-                      className={`flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${selectedQuantity === 'half'
+                      className={`flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center transition-all ${selectedQuantity === 'half'
                         ? 'border-brand-teal bg-brand-teal'
                         : 'border-gray-300'
                         }`}
                     >
                       {selectedQuantity === 'half' && (
-                        <Check className="w-4 h-4 text-white" />
+                        <Check className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                       )}
                     </div>
 
                     <div className="flex-1">
-                      <div className="text-sm font-medium text-gray-600 mb-1">
+                      <div className="text-xs sm:text-sm font-medium text-gray-600 mb-0.5 sm:mb-1">
                         Half Cake
                       </div>
-                      <div className="text-2xl font-bold text-gray-900">
+                      <div className="text-xl sm:text-2xl font-bold text-gray-900">
                         ₹{cake.price_half}
                       </div>
                     </div>
 
                     {selectedQuantity === 'half' && (
-                      <div className="absolute top-3 right-3">
-                        <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
+                      <div className="absolute top-2 right-2 sm:top-3 sm:right-3">
+                        <span className="inline-flex items-center px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
                           Selected
                         </span>
                       </div>
@@ -206,10 +216,10 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
             </div>
 
             {/* Price Summary */}
-            <div className="mb-6 p-5 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border border-gray-200">
+            <div className="mb-5 sm:mb-6 p-4 sm:p-5 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl sm:rounded-2xl border border-gray-200">
               <div className="flex items-center justify-between">
-                <span className="text-gray-600 font-medium">Total Amount</span>
-                <span className="text-3xl font-bold text-brand-dark">
+                <span className="text-sm sm:text-base text-gray-600 font-medium">Total Amount</span>
+                <span className="text-2xl sm:text-3xl font-bold text-brand-dark">
                   ₹{selectedPrice}
                 </span>
               </div>
@@ -219,7 +229,7 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
             <div className="flex flex-col sm:flex-row gap-3">
               <button
                 onClick={onClose}
-                className="flex-1 py-4 px-6 rounded-xl font-semibold border-2 border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all active:scale-95"
+                className="flex-1 py-3.5 sm:py-4 px-6 rounded-xl font-semibold border-2 border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all active:scale-95 text-sm sm:text-base"
               >
                 Close
               </button>
@@ -228,9 +238,9 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
                   onPurchase(cake, selectedQuantity);
                   onClose();
                 }}
-                className="flex-1 py-4 px-6 rounded-xl font-semibold bg-gradient-to-r from-brand-teal to-brand-teal/90 hover:from-brand-teal/90 hover:to-brand-teal text-white transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-2"
+                className="flex-1 py-3.5 sm:py-4 px-6 rounded-xl font-semibold bg-gradient-to-r from-brand-teal to-brand-teal/90 hover:from-brand-teal/90 hover:to-brand-teal text-white transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                <MessageCircle className="w-5 h-5" />
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
                 Purchase on WhatsApp
               </button>
             </div>
