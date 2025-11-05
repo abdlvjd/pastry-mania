@@ -120,7 +120,7 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
               <h3 className="text-xs sm:text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3 sm:mb-4">
                 Select Quantity
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+              <div className="grid grid-cols-2 gap-3 sm:gap-4">
                 {/* Full Cake Option */}
                 <label
                   className={`relative flex items-center gap-3 sm:gap-4 p-4 sm:p-5 rounded-xl sm:rounded-2xl border-2 cursor-pointer transition-all duration-200 ${selectedQuantity === 'full'
@@ -158,10 +158,13 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
                   </div>
 
                   {selectedQuantity === 'full' && (
-                    <div className="absolute top-2 right-2 sm:top-3 sm:right-3">
-                      <span className="inline-flex items-center px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
-                        Selected
-                      </span>
+                    <div className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-brand-teal rounded-full blur-sm animate-pulse"></div>
+                        <span className="relative inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-brand-teal to-emerald-600 text-white shadow-lg">
+                          <Check className="w-4 h-4 sm:w-5 sm:h-5 stroke-[3]" />
+                        </span>
+                      </div>
                     </div>
                   )}
                 </label>
@@ -204,10 +207,13 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
                     </div>
 
                     {selectedQuantity === 'half' && (
-                      <div className="absolute top-2 right-2 sm:top-3 sm:right-3">
-                        <span className="inline-flex items-center px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full text-xs font-semibold bg-brand-teal text-white">
-                          Selected
-                        </span>
+                      <div className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-brand-teal rounded-full blur-sm animate-pulse"></div>
+                          <span className="relative inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-brand-teal to-emerald-600 text-white shadow-lg">
+                            <Check className="w-4 h-4 sm:w-5 sm:h-5 stroke-[3]" />
+                          </span>
+                        </div>
                       </div>
                     )}
                   </label>
@@ -226,7 +232,7 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
             </div>
 
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-row gap-3">
               <button
                 onClick={onClose}
                 className="flex-1 py-3.5 sm:py-4 px-6 rounded-xl font-semibold border-2 border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all active:scale-95 text-sm sm:text-base"
@@ -241,7 +247,7 @@ export default function CakeModal({ cake, isOpen, onClose, onPurchase }: CakeMod
                 className="flex-1 py-3.5 sm:py-4 px-6 rounded-xl font-semibold bg-gradient-to-r from-brand-teal to-brand-teal/90 hover:from-brand-teal/90 hover:to-brand-teal text-white transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-2 text-sm sm:text-base"
               >
                 <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
-                Purchase on WhatsApp
+                Purchase
               </button>
             </div>
           </div>
