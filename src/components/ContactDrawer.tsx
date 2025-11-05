@@ -97,9 +97,10 @@ export default function ContactDrawer({ isOpen, onClose }: ContactDrawerProps) {
             <div className="flex-1">
               <div className="text-xs text-gray-500 uppercase mb-1">Address</div>
               <div className="text-sm text-gray-700 leading-relaxed">
-                Immadihalli Main Rd, Immadihalli<br />
-                Whitefield, Bengaluru<br />
-                Karnataka 560066
+                #1, Harikesav Nilaya<br />
+                Immadihalli, Whitefield Main Road<br />
+                Opposite Milk Dairy<br />
+                Bengaluru, Karnataka - 560066
               </div>
             </div>
           </div>
