@@ -9,7 +9,6 @@ import { cakes, Cake } from './data/cakes';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [egglessOnly, setEgglessOnly] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedCake, setSelectedCake] = useState<Cake | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,11 +22,10 @@ function App() {
   const filteredCakes = useMemo(() => {
     return cakes.filter((cake) => {
       const matchesSearch = cake.name.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesEggless = !egglessOnly || cake.eggless;
       const matchesCategory = selectedCategory === 'All' || cake.category === selectedCategory;
-      return matchesSearch && matchesEggless && matchesCategory;
+      return matchesSearch && matchesCategory;
     });
-  }, [searchTerm, egglessOnly, selectedCategory]);
+  }, [searchTerm, selectedCategory]);
 
   const handleViewCake = (cake: Cake) => {
     setSelectedCake(cake);
@@ -35,31 +33,34 @@ function App() {
   };
 
   const handlePurchaseCake = (cake: Cake, quantity: 'full' | 'half' = 'full') => {
-    const quantityText = quantity === 'full' ? 'Full Cake' : 'Half Cake';
-    const price = quantity === 'full' ? cake.price : cake.price_half;
-    const message = encodeURIComponent(
-      `Hi Pastry Mania! I would like to purchase:\n\nCake: ${cake.name}\nQuantity: ${quantityText}\nPrice: ₹${price}`
-    );
-    window.open(`https://wa.me/7025500740?text=${message}`, '_blank');
+    if (cake.category === 'Customised Cakes') {
+      const message = encodeURIComponent(
+        `Hi Pastry Mania! I would like to inquire about a custom cake: ${cake.name}.`
+      );
+      window.open(`https://wa.me/7025500740?text=${message}`, '_blank');
+    } else {
+      const quantityText = quantity === 'full' ? 'Full Cake' : 'Half Cake';
+      const price = quantity === 'full' ? cake.price : cake.price_half;
+      const message = encodeURIComponent(
+        `Hi Pastry Mania! I would like to purchase:\n\nCake: ${cake.name}\nQuantity: ${quantityText}\nPrice: ₹${price}`
+      );
+      window.open(`https://wa.me/7025500740?text=${message}`, '_blank');
+    }
   };
+
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Header onContactClick={() => setIsContactOpen(true)} />
-
       <SearchBar
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
-        egglessOnly={egglessOnly}
-        onEgglessToggle={() => setEgglessOnly(!egglessOnly)}
       />
-
       <CategoryBar
         categories={categories}
         selectedCategory={selectedCategory}
         onCategoryChange={setSelectedCategory}
       />
-
       <main className="container mx-auto px-4 py-6">
         {filteredCakes.length === 0 ? (
           <div className="text-center py-12">
@@ -78,7 +79,6 @@ function App() {
           </div>
         )}
       </main>
-
       {selectedCake && (
         <CakeModal
           cake={selectedCake}
@@ -87,7 +87,6 @@ function App() {
           onPurchase={handlePurchaseCake}
         />
       )}
-
       <ContactDrawer isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </div>
   );

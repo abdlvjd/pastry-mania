@@ -17,18 +17,7 @@ export default function CakeCard({ cake, onView, onPurchase }: CakeCardProps) {
           loading="lazy"
           className="w-full h-full object-cover"
         />
-        <div className="absolute top-2 right-2">
-          <span
-            className={`px-3 py-1 rounded-full text-xs font-semibold ${cake.eggless
-              ? 'bg-brand-teal text-white'
-              : 'bg-brand-pink/90 text-white'
-              }`}
-          >
-            {cake.eggless ? '🌱 Eggless' : 'Contains Egg'}
-          </span>
-        </div>
       </div>
-
       <div className="p-4">
         <div className="mb-2">
           <h3 className="text-lg font-bold text-brand-dark line-clamp-1">
@@ -38,12 +27,10 @@ export default function CakeCard({ cake, onView, onPurchase }: CakeCardProps) {
             {cake.category}
           </p>
         </div>
-
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-brand-dark">
-            ₹{cake.price}
+          <div className="text-lg font-bold text-brand-dark">
+            {cake.category === 'Customised Cakes' ? '' : `₹${cake.price}`}
           </div>
-
           <div className="flex gap-2">
             <button
               onClick={() => onView(cake)}
@@ -52,7 +39,6 @@ export default function CakeCard({ cake, onView, onPurchase }: CakeCardProps) {
             >
               <Eye className="w-5 h-5" />
             </button>
-
             <button
               onClick={() => onPurchase(cake)}
               className="p-2 bg-brand-teal hover:bg-brand-teal/90 text-white rounded-lg transition-all duration-200"
