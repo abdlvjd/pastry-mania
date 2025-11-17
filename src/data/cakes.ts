@@ -18,7 +18,7 @@ export const cakes: Cake[] = [
     price_half: 250,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2024/11/23/05/13/ai-generated-9218146_1280.png',
     description: 'Traditional Black Forest cake with chocolate sponge, cherries, and whipped cream.',
   },
   {
@@ -28,7 +28,7 @@ export const cakes: Cake[] = [
     price_half: 250,
     eggless: true,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2015/03/29/17/55/cake-697491_1280.jpg',
     description: 'Classic pineapple cake with caramelized pineapple rings and cream.',
   },
   {
@@ -38,7 +38,7 @@ export const cakes: Cake[] = [
     price_half: 300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2019/07/17/09/19/strawberry-cake-4343499_1280.jpg',
     description: 'Fresh strawberry cake with whipped cream and strawberry compote.',
   },
   {
@@ -48,7 +48,7 @@ export const cakes: Cake[] = [
     price_half: 300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1588195538326-c5b1e5b80c4b?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2019/04/07/23/59/dessert-4111081_1280.jpg',
     description: 'Elegant white chocolate version of the classic Black Forest.',
   },
   {
@@ -58,7 +58,7 @@ export const cakes: Cake[] = [
     price_half: 300,
     eggless: true,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2018/03/20/21/46/food-3244824_1280.jpg',
     description: 'Tropical mango-flavored cake with fresh mango pulp.',
   },
   {
@@ -68,7 +68,7 @@ export const cakes: Cake[] = [
     price_half: 300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop',
+    image: 'https://www.cakesworld.in/images/web/black_currant_cake_22301.jpg',
     description: 'Rich black currant flavored cake with tangy berry notes.',
   },
   {
@@ -78,7 +78,7 @@ export const cakes: Cake[] = [
     price_half: 350,
     eggless: true,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=400&h=300&fit=crop',
+    image: 'https://www.shreemithai.com/cdn/shop/products/butterscotch-cake-191654.jpg?v=1707819767&width=1200',
     description: 'Smooth butterscotch flavored cake with crunchy butterscotch chips.',
   },
   {
@@ -88,7 +88,7 @@ export const cakes: Cake[] = [
     price_half: 350,
     eggless: true,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1588195538326-c5b1e5b80c4b?w=400&h=300&fit=crop',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSgUcpzMg1kti82W_J2z9JqKHK_z6MW0huve9pf-d98BEODMVr9sHVutvR9819cFgU9v85rxHZC1Y5BAxRZAAHlvv0M-g3s8tsJ-hxOeEo',
     description: 'Light and fluffy vanilla cake made with real vanilla beans.',
   },
   {
@@ -98,7 +98,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2023/09/21/11/41/ai-generated-8266497_1280.jpg',
     description: 'Delicious blueberry cake with fresh blueberry compote.',
   },
   {
@@ -108,7 +108,7 @@ export const cakes: Cake[] = [
     price_half: 350,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    image: 'https://www.allrecipes.com/thmb/POZ_cghqWAneTOjZHUsJBRKDjn0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7809239-ae9195aaa94d4a95bbbe824334f72210.jpg',
     description: 'Coffee-infused cake with Irish whiskey cream frosting.',
   },
   {
@@ -118,7 +118,7 @@ export const cakes: Cake[] = [
     price_half: 350,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://www.allrecipes.com/thmb/UgY4DV9e4YTn4OkDO_6QAqUJXDE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/454960-f97b98abf11e4c18b34196e5ceddd035.jpg',
     description: 'Citrus-flavored orange cake with zesty orange cream.',
   },
   {
@@ -128,7 +128,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://theoven.in/wp-content/uploads/2023/02/Choco-Vanilla.png',
     description: 'Perfect blend of rich chocolate and smooth vanilla.',
   },
   {
@@ -138,7 +138,7 @@ export const cakes: Cake[] = [
     price_half: 350,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2018/04/10/13/58/cake-3307396_1280.jpg',
     description: 'Black Forest cake loaded with Oreo cookies.',
   },
   {
@@ -148,7 +148,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2020/03/10/03/49/red-velvet-cake-4917734_1280.jpg',
     description: 'Rich and moist red velvet cake with cream cheese frosting.',
   },
   {
@@ -158,7 +158,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop',
+    image: 'https://trivandrumcakehouse.com/wp-content/uploads/2015/10/Purple-Velvet-Cake-pic-monkey.jpg',
     description: 'Unique purple velvet cake with a stunning appearance.',
   },
   // Choco Masthi
@@ -169,7 +169,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2021/02/04/23/22/cheesecake-5982910_1280.jpg',
     description: 'Rich chocolate cake loaded with Oreo cookies.',
   },
   {
@@ -179,7 +179,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2016/03/29/22/40/truffle-1289609_1280.jpg',
     description: 'Decadent Belgium chocolate truffle cake.',
   },
   {
@@ -189,7 +189,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSKFmtiH1NQt9SigEvTdHVE2qXql7HJaHPRsI34DHkyQX0IoUhe8Z1N-IqOqFi75yZ2P-CiZCsusUT1lBYSHzOKMvL5xjldEx-B_IC7wtGBLeDukClf7ZlsOA',
     description: 'Ultimate chocolate lover\'s dream with layers of chocolate.',
   },
   {
@@ -199,7 +199,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://cdn.pixabay.com/photo/2017/01/23/08/45/cake-2001781_1280.jpg',
     description: 'Traditional German chocolate cake with coconut pecan frosting.',
   },
   {
@@ -209,7 +209,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRIBoPWYWSNN-IO4qgyv0tQDYgkF5W53hLMg41e4qmObwdM1KZMBIcD4y8e2PTraIE-zjnQXVJnnjdKrvAPWRlTuIUk4Oii',
     description: 'Chocolate cake studded with chocolate chips.',
   },
   {
@@ -219,7 +219,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://www.loveandoliveoil.com/wp-content/uploads/2024/02/flourless-pistachio-cake-1.jpg',
     description: 'Chocolate and pistachio fusion cake.',
   },
   {
@@ -229,7 +229,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://www.thechefpatissier.com/cdn/shop/products/IMG_0552.png?v=1680600368',
     description: 'Chocolate cake with crunchy almonds.',
   },
   {
@@ -239,7 +239,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://jambubakers.com/wp-content/uploads/2024/02/choco-CRUNCH-CAKE.jpg',
     description: 'Chocolate cake with crispy crunchy layers.',
   },
   {
@@ -249,7 +249,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://justbakedcake.com/wp-content/uploads/2020/11/Chocolate-Flake.jpg',
     description: 'Chocolate cake topped with chocolate flakes.',
   },
   {
@@ -259,7 +259,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://sallysbakingaddiction.com/wp-content/uploads/2023/01/chocolate-raspberry-cake-3.jpg',
     description: 'Chocolate and raspberry combination.',
   },
   {
@@ -269,7 +269,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://assets.epicurious.com/photos/61f4370abf67bb5e52649829/2:3/w_3068,h_4602,c_limit/DoubleDhocolateLayerCake_RECIPE_012622_26397.jpg',
     description: 'Double the chocolate, double the pleasure.',
   },
   {
@@ -279,7 +279,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://sallysbakingaddiction.com/wp-content/uploads/2022/07/chocolate-peanut-butter-cake-slice.jpg',
     description: 'Chocolate and peanut butter combination.',
   },
   {
@@ -289,7 +289,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/43/10/88/43108802019d12a4da46210ae86b5f43.jpg',
     description: 'Rich Nutella chocolate cake.',
   },
   // Special Cakes
@@ -300,7 +300,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: "https://www.shreemithai.com/cdn/shop/products/pista-white-truffle-cake-224621.jpg?v=1707820023",
     description: 'Pistachio truffle cake with rich flavors.',
   },
   {
@@ -310,7 +310,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://www.tashasartisanfoods.com/blog/wp-content/uploads/2020/07/Almond-Honey-Cake-9-FEATURE.jpg',
     description: 'Sweet honey cake with crunchy almonds.',
   },
   {
@@ -320,7 +320,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRTqothiiBKITUGQBX2aMlvLUAB_S5oXKR6UQUxNGQgu_xDeLI4ARTbaHUMJVl1VfbdLkJhUbmkldadgj6Tg9ooVUEtwmcfsVkxF9jzhXA',
     description: 'Almond truffle cake with rich texture.',
   },
   {
@@ -330,7 +330,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://palatesdesire.com/wp-content/uploads/2022/09/Rasmalai-recipe@palates-desire.jpg',
     description: 'Traditional Rasmalai flavored cake.',
   },
   {
@@ -340,7 +340,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/96/e1/fe/96e1feec96f345b59c922306747d18d9.jpg',
     description: 'Indian Gulab Jamun flavored fusion cake.',
   },
   {
@@ -350,7 +350,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop',
+    image: 'https://shwetainthekitchen.com/wp-content/uploads/2021/08/Fruit-Salad-with-Condensed-Milk.jpg',
     description: 'Cake loaded with mixed fresh fruits.',
   },
   {
@@ -360,7 +360,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/f1/a2/84/f1a2848f8fe55b8deac57e42fa00a837.jpg',
     description: 'Coffee-flavored cake with crunchy almonds.',
   },
   {
@@ -370,7 +370,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/1d/53/53/1d5353bf69eb7d94feb234288447c171.jpg',
     description: 'Refreshing tender coconut flavored cake.',
   },
   {
@@ -380,7 +380,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=400&h=300&fit=crop',
+    image: 'https://bakersoven.in/uploads/all/QNejb4cERDOkSx7J2yG8TtWJT7dCLakBIjQoLQyg.webp',
     description: 'Caramel and butterscotch combination.',
   },
   {
@@ -390,7 +390,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://dinnerthendessert.com/wp-content/uploads/2024/10/Caramel-Cake-21-1x1-1.jpg',
     description: 'Classic caramel flavored cake.',
   },
   {
@@ -400,7 +400,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/24/1f/15/241f156e2e6db333ed0fb298bdf6d4ce.jpg',
     description: 'Rich caramel truffle cake.',
   },
   {
@@ -410,7 +410,7 @@ export const cakes: Cake[] = [
     price_half: 400,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&h=300&fit=crop',
+    image: 'https://cakewala.in/wp-content/uploads/2023/09/AlmondAlphonso1-500x500.jpg',
     description: 'Almond cake with Alphonso mango.',
   },
   {
@@ -420,7 +420,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/45/21/13/452113a394b717393bbc14582590b095.jpg',
     description: 'Colorful rainbow layered cake.',
   },
   {
@@ -430,7 +430,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://m.media-amazon.com/images/I/61tgGcOfmKL._AC_UF350,350_QL80_.jpg',
     description: 'White chocolate chip cake.',
   },
   {
@@ -440,7 +440,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    image: 'https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg',
     description: 'Coffee and chocolate mocha cake.',
   },
   {
@@ -450,7 +450,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/4c/89/0b/4c890bca80a08d6018100e1e3e9a8632.jpg',
     description: 'Extra rich chocolate cake.',
   },
   {
@@ -460,7 +460,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    image: 'https://img.freepik.com/free-psd/delicious-coffee-cup-isolated_23-2151806505.jpg?semt=ais_hybrid&w=740&q=80',
     description: 'Caramel and coffee fusion.',
   },
   {
@@ -470,7 +470,7 @@ export const cakes: Cake[] = [
     price_half: 450,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/f3/a8/75/f3a875e97abc0a1dca7e8c2b3f644253.jpg',
     description: 'Dark vanilla chocolate combination.',
   },
   // Premium Cakes
@@ -481,7 +481,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/0f/57/cc/0f57ccd7d481b262907eb985738ebe6b.jpg',
     description: 'Loaded with premium dry fruits.',
   },
   {
@@ -491,7 +491,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/df/af/32/dfaf32480dadd30a05513644872f5aae.jpg',
     description: 'Creamy cake with assorted nuts.',
   },
   {
@@ -501,7 +501,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/4a/b1/7e/4ab17efe857583bac8df26f9c94996f2.jpg',
     description: 'Silky Belgium chocolate mousse cake.',
   },
   {
@@ -511,7 +511,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/6f/a0/d5/6fa0d535090558cacb24ebb730512092.jpg',
     description: 'Premium Lotus Biscoff flavored cake.',
   },
   {
@@ -521,7 +521,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/e9/0c/60/e90c603c98bea37097a5629b7271a1eb.jpg',
     description: 'Swiss chocolate with honey.',
   },
   {
@@ -531,7 +531,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/2c/2b/3a/2c2b3ac434563f690b4cef3fea2327e0.jpg',
     description: 'Specialty Radbee flavored cake.',
   },
   {
@@ -541,7 +541,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/da/59/e6/da59e63dc9f9e2a1eea63809174110fd.jpg',
     description: 'Spanish-inspired delightful cake.',
   },
   {
@@ -551,7 +551,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/d5/e5/3b/d5e53b7c80d6a76ad15755d07404c58a.jpg',
     description: 'German honey cake.',
   },
   {
@@ -561,7 +561,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/1b/50/d8/1b50d8ce1312fe074b2e4d88156657fb.jpg',
     description: 'Chocolate and Lotus Biscoff crunchy.',
   },
   {
@@ -571,7 +571,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://hotovenbakers.in/cdn/shop/products/Nutty-Bubbly-Thekkekara-s-Hot-Oven-Bakers-1667959838.jpg?v=1667959841',
     description: 'Nutty and bubbly textured cake.',
   },
   {
@@ -581,7 +581,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/a5/18/b9/a518b9540ee9ad9556080abbbb8cd036.jpg',
     description: 'Chocolate splash cake.',
   },
   {
@@ -591,7 +591,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/37/da/7a/37da7a810213c664637dbe6c3efe2336.jpg',
     description: 'Coffee cake with walnuts.',
   },
   {
@@ -601,7 +601,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/c5/bf/9b/c5bf9b5dce5879505178cd1e1bcf7624.jpg',
     description: 'Russian honey cake.',
   },
   {
@@ -611,7 +611,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/41/03/41/410341cd52354bc0bf9cf4fbcf67a6fe.jpg',
     description: 'Pistachio nut cake.',
   },
   // Kiddoo's Choice
@@ -622,7 +622,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/86/ec/7d/86ec7d079a536f323e7039f691c31e60.jpg',
     description: 'Toblerone chocolate cake.',
   },
   {
@@ -632,7 +632,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/55/41/37/5541377b69c5fedd320f89d9f3077871.jpg',
     description: 'Premium Ferrero Rocher cake.',
   },
   {
@@ -642,7 +642,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/11/47/3a/11473a4e095ce65f6112dc9ace9f0a86.jpg',
     description: 'Twix chocolate bar inspired cake.',
   },
   {
@@ -652,7 +652,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/d4/d9/9d/d4d99df8a4e0d196250d86ae0d130672.jpg',
     description: 'Kinder chocolate cake.',
   },
   {
@@ -662,7 +662,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/70/e4/f2/70e4f2b3aefb044aca9b36700905d275.jpg',
     description: 'Mars bar chocolate cake.',
   },
   {
@@ -672,7 +672,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/3a/2a/8f/3a2a8fbbd961775e382341437f73bb5b.jpg',
     description: 'Raffaello coconut almond cake.',
   },
   {
@@ -682,7 +682,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/0f/ed/5e/0fed5e32efd703d1dc780f32710250f8.jpg',
     description: 'Snickers bar inspired cake with peanuts and caramel.',
   },
   {
@@ -692,7 +692,7 @@ export const cakes: Cake[] = [
     price_half: 650,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/e6/84/3c/e6843cf4828d7c616df1e889f244d4ab.jpg',
     description: "Hershey's Kisses chocolate cake.",
   },
   {
@@ -702,7 +702,7 @@ export const cakes: Cake[] = [
     price_half: 550,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/17/db/cc/17dbcced146d7c3f1153b36453255f4c.jpg',
     description: 'Chocolate hazelnut combination cake.',
   },
   {
@@ -712,7 +712,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/d0/28/dc/d028dce2861436ec00e074b473196b3d.jpg',
     description: 'Cadbury Dairy Milk chocolate cake.',
   },
   {
@@ -722,7 +722,7 @@ export const cakes: Cake[] = [
     price_half: 600,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/cd/db/0e/cddb0edb552237aecf082e623f24c85b.jpg',
     description: 'Silky smooth chocolate cake.',
   },
   {
@@ -732,7 +732,7 @@ export const cakes: Cake[] = [
     price_half: 500,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/13/f7/23/13f7234e1eef68218e24ed6fb81f2311.jpg',
     description: 'Galaxy chocolate cake.',
   },
   {
@@ -741,7 +741,7 @@ export const cakes: Cake[] = [
     price: 1300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/69/5a/5b/695a5bc448e718e1a359a5a18e2ac7bc.jpg',
     description: 'Our signature creamy cheesecake.',
   },
   {
@@ -750,7 +750,7 @@ export const cakes: Cake[] = [
     price: 1200,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/f4/de/a3/f4dea3e8cbb21d792ca452be26e88c4a.jpg',
     description: 'Traditional classic New York style cheesecake.',
   },
   {
@@ -759,7 +759,7 @@ export const cakes: Cake[] = [
     price: 1200,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/26/a0/d9/26a0d95731c01c292be0f3510b3b13fc.jpg',
     description: 'Baked cheesecake with rich texture.',
   },
   {
@@ -768,7 +768,7 @@ export const cakes: Cake[] = [
     price: 1300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/98/13/b5/9813b55b04ce7b935a013e0ac538527a.jpg',
     description: 'Velvety smooth cream cheesecake.',
   },
   {
@@ -777,7 +777,7 @@ export const cakes: Cake[] = [
     price: 1200,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/53/01/03/530103f86294e477ba149e8809d24804.jpg',
     description: 'Cheesecake with blueberry topping.',
   },
   {
@@ -786,7 +786,7 @@ export const cakes: Cake[] = [
     price: 1200,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/32/16/9c/32169c77dc3edddec26a493f504bd0e9.jpg',
     description: 'Citrus orange cheesecake.',
   },
   {
@@ -795,7 +795,7 @@ export const cakes: Cake[] = [
     price: 1100,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/6d/2b/fc/6d2bfcb52f4a551aefbe6fa25c172532.jpg',
     description: 'Fresh strawberry topped cheesecake.',
   },
   {
@@ -804,7 +804,7 @@ export const cakes: Cake[] = [
     price: 1100,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/78/bf/63/78bf63dcd5cef17bbf39a944c3f6fdb6.jpg',
     description: 'Tropical mango cheesecake.',
   },
   {
@@ -813,7 +813,7 @@ export const cakes: Cake[] = [
     price: 1300,
     eggless: false,
     category: 'Cakes',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/6f/40/0a/6f400a3aeaaedfbf1cee9138042cba91.jpg',
     description: 'Nutella swirled cheesecake.',
   },
   // Customised Cakes
@@ -823,7 +823,7 @@ export const cakes: Cake[] = [
     price: 1200,
     eggless: false,
     category: 'Customised Cakes',
-    image: 'https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/8c/6c/5d/8c6c5df097923b506424c0981953abff.jpg',
     description: 'Fully customizable designer cake for your special occasions. Tell us your vision!',
   },
   {
@@ -832,7 +832,7 @@ export const cakes: Cake[] = [
     price: 2500,
     eggless: false,
     category: 'Customised Cakes',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/c3/8f/5e/c38f5ec8e163122a5aba72499222762d.jpg',
     description: 'Multi-tiered custom wedding cake designed exactly as you envision for your special day.',
   },
   {
@@ -841,7 +841,7 @@ export const cakes: Cake[] = [
     price: 1500,
     eggless: false,
     category: 'Customised Cakes',
-    image: 'https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/9d/cf/fe/9dcffe3be38347613d1732d46bd32970.jpg',
     description: 'Personalized anniversary cake with your choice of flavors, design, and decorations.',
   },
   {
@@ -850,7 +850,7 @@ export const cakes: Cake[] = [
     price: 1000,
     eggless: true,
     category: 'Customised Cakes',
-    image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/7a/f5/53/7af553245a0c2135689be2d1f74b3aee.jpg',
     description: 'Custom cake with edible photo print. Perfect for birthdays and celebrations!',
   },
   {
@@ -859,7 +859,7 @@ export const cakes: Cake[] = [
     price: 1800,
     eggless: false,
     category: 'Customised Cakes',
-    image: 'https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/b4/72/cb/b472cbfa98784a1de60df6d90a372ef0.jpg',
     description: 'Custom themed cake for any occasion - superheroes, princesses, sports, and more!',
   },
   // Desserts
@@ -869,7 +869,7 @@ export const cakes: Cake[] = [
     price: 250,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/4c/1f/b7/4c1fb7d01a0cf0e7e677430f77ec9463.jpg',
     description: 'Individual cake in a can, perfect for on-the-go indulgence.',
   },
   {
@@ -878,7 +878,7 @@ export const cakes: Cake[] = [
     price: 180,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1533134242820-b02d20b1ba35?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/47/5e/09/475e098e5d9045abbd605315c96294bd.jpg',
     description: 'Creamy mini cheesecake with graham cracker crust and berry topping.',
   },
   {
@@ -887,7 +887,7 @@ export const cakes: Cake[] = [
     price: 350,
     eggless: true,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/0e/0e/15/0e0e154a1b1e3cd9b21703a34909f1ec.jpg',
     description: 'Rich chocolate mousse in a convenient tub, perfect for sharing.',
   },
   {
@@ -896,7 +896,7 @@ export const cakes: Cake[] = [
     price: 120,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1612810806563-4cb8265db55f?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/d9/15/4f/d9154f4da7cb34e193885a3fdfabd2f9.jpg',
     description: 'Soft Italian donuts filled with cream and dusted with sugar.',
   },
   {
@@ -905,7 +905,7 @@ export const cakes: Cake[] = [
     price: 280,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/cf/99/33/cf993358a182e48e5c345ea3d1f328ea.jpg',
     description: 'Traditional Latin American sponge cake soaked in three types of milk.',
   },
   {
@@ -914,7 +914,7 @@ export const cakes: Cake[] = [
     price: 220,
     eggless: true,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/e9/fc/d7/e9fcd7bf81196e13d1a1e4f986a3b215.jpg',
     description: 'Layered dessert bowl with cake, cream, and fresh fruits.',
   },
   {
@@ -923,7 +923,7 @@ export const cakes: Cake[] = [
     price: 150,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/cc/ae/ab/ccaeabf7766f4f303dba162bc08c907e.jpg',
     description: 'Fudgy chocolate brownie with walnuts, rich and indulgent.',
   },
   {
@@ -932,7 +932,7 @@ export const cakes: Cake[] = [
     price: 180,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1606312619070-d48b4cdc8bf7?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/e9/19/cb/e919cb26815a066212a86599da785968.jpg',
     description: 'Warm chocolate lava cake with molten chocolate center.',
   },
   {
@@ -941,7 +941,7 @@ export const cakes: Cake[] = [
     price: 80,
     eggless: true,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1587668178277-295251f900ce?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/9b/d4/17/9bd417b355b208d2501351a834208c81.jpg',
     description: 'Assorted cupcakes with buttercream frosting and sprinkles.',
   },
   {
@@ -950,7 +950,7 @@ export const cakes: Cake[] = [
     price: 200,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/d2/7e/09/d27e0956725cd5a7138649993611053a.jpg',
     description: 'Silky smooth chocolate mousse in an elegant cup.',
   },
   {
@@ -959,7 +959,7 @@ export const cakes: Cake[] = [
     price: 450,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/736x/17/07/32/170732129168c5f64313019b06dbe024.jpg',
     description: 'Stacked brownies with cream cheese frosting and chocolate drizzle.',
   },
   {
@@ -968,7 +968,7 @@ export const cakes: Cake[] = [
     price: 550,
     eggless: false,
     category: 'Desserts',
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+    image: 'https://i.pinimg.com/1200x/ab/db/c6/abdbc68b44ec41087112a02ded7dce32.jpg',
     description: 'Dense brownie-style cake with rich chocolate ganache.',
   },
 ];
